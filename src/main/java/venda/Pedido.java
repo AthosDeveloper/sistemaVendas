@@ -16,7 +16,7 @@ public class Pedido {
         if (this.contadorProdutos < Pedido.MAX_PRODUTOS) {
             produtos[contadorProdutos++] = produto;
         } else {
-            System.out.println("Você superou a quantidade de produtos disponíveis " + Pedido.MAX_PRODUTOS);
+        System.out.println("Você superou a quantidade de produtos disponíveis " + Pedido.MAX_PRODUTOS);
         }
     }
 
