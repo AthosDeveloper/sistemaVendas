@@ -8,6 +8,8 @@ public class Main {
         Pedido pedido = new Pedido();
         pedido.adicionarProduto(produto);
         pedido.adicionarProduto(produto1);
-   pedido.mostrarPedido();
+        pedido.calcularTotal();
+        pedido.mostrarPedido();
+
     }
 }

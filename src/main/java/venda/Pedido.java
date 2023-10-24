@@ -29,8 +29,9 @@ public class Pedido {
         return total;
     }
 public void mostrarPedido(){
-        Double totalPedido = calcularTotal();
-    System.out.println("id do pedido: " + this.ID_PEDIDO + " Total do pedido: r$ " + totalPedido);
+
+    System.out.println("id do pedido: " + this.ID_PEDIDO);
+    System.out.println("total do pedido: " + this.calcularTotal());
     System.out.println();
     System.out.println("produtos do pedido:");
     for (int i = 0; i < this.contadorProdutos; i ++){
